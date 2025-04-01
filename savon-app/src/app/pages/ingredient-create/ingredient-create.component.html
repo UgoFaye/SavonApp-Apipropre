@@ -1,0 +1,10 @@
+<p>ingredient-create works!</p>
+
+<form (ngSubmit)="onSubmit()">
+    <label>Nom :</label>
+    <input type="text" [(ngModel)]="ingredient.nom" name="nom" required>
+  
+  
+    <button type="submit">Enregistrer</button>
+  </form>
+  
